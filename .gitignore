@@ -1,0 +1,54 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environment ────────────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# ── Model Weight Files (too large for git) ────────────────────
+models/
+*.h5
+*.weights.h5
+*.keras
+
+# ── Pickle Files (model binaries) ─────────────────────────────
+*.pkl
+
+# ── Streamlit ─────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Jupyter Notebooks checkpoints ────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS Files ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Uploaded test images ──────────────────────────────────────
+uploads/
+test_images/
+
+# ── Build / dist ──────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
